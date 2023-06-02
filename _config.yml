@@ -20,7 +20,7 @@ minimal_mistakes_skin: "plum" # "default" "air", "aqua", ...
 # Site Settings
 locale: "ko-KR" #"en-US"
 title: "JoungIm_Log" # 상단 헤더에 보이는 블로그 명
-title_separator: "&#124;"
+title_separator: "|" #각 페이지 이름 | title
 subtitle: # site tagline that appears below site title in masthead
 name: "JoungIm" # 블로그 닉네임 설정
 description: "JoungIm's Development Log" # 블로그 설명
@@ -31,10 +31,18 @@ teaser: #
 
 # logo                     : # 블로그명 앞에 로고 추가하고 싶을 경우 사용
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+# breadcrumbs            : false # true, false (default) #게시글 위에 네비게이션 메뉴
 words_per_minute: 200
 comments:
-  provider: "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: "giscus" # false (default), "utterances", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  giscus: 
+    repo_id              : "R_kgDOJqZmUA" # Shown during giscus setup at https://giscus.app
+    category_name        : "Announcements" # Full text name of the category
+    category_id          : "DIC_kwDOJqZmUM4CW6k-" # Shown during giscus setup at https://giscus.app
+    discussion_term      : "pathname" # (default), "url", "title", "og:title"
+    reactions_enabled    : '1' # for enabled (default), '0' for disabled
+    input_position:      : "top"
+    theme                : "light" # (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
   disqus:
     shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -45,8 +53,8 @@ comments:
     num_posts: # 5 (default)
     colorscheme: # "light" (default), "dark"
   utterances:
-    theme: "github-light" # "github-dark"
-    issue_term: "pathname"
+    theme: # "github-light"  "github-dark"
+    issue_term: # "pathname"
   staticman:
     branch: # "master"
     endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -266,7 +274,8 @@ compress_html:
   ignore:
     envs: development
 
-# Defaults
+
+
 defaults:
   # _posts
   - scope:
@@ -275,10 +284,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: #true
-      show_date: true
+      # read_time: true
       comments: true
       # share: true
       related: true
       sidebar:
         nav: "categories"
+      show_date: true
+
+date_format: "%Y - %m - %d"
