@@ -192,7 +192,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 markdown: kramdown
-highlighter: rouge
+highlighter: rouge # 글자에 색을 입히는 효과
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
@@ -217,7 +217,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
@@ -253,8 +253,8 @@ category_archive:
 # tag_archive:
 #   type: liquid
 #   path: /tags/
-
 # https://github.com/jekyll/jekyll-archives
+
 # jekyll-archives:
 #   enabled:
 #     - categories
@@ -291,4 +291,4 @@ defaults:
         nav: "categories"
       show_date: true
 
-date_format: "%Y - %m - %d"
+# date_format: "%A, %B %-d, %Y"
