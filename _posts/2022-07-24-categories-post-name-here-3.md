@@ -9,8 +9,6 @@ tags:
 
 permalink: /db/post-name-here-3/
 
-toc: true
-toc_sticky: true
 
 date: 2022-07-24
 last_modified_at: 2022-07-24

@@ -1,16 +1,13 @@
 # main links
 main:
   - title: "Home"
-    url: https://cjoungi.github.io/
+    url: /
 
   - title: "About"
     url: /about/
 
-  - title: "GitHub"
+  - title: "Github"
     url: https://github.com/cjoungi
-
-  # - title: "Projects"
-  #   url: /projects/
 
   # - title: "Categories"
   #   url: /categories/

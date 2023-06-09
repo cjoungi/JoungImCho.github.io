@@ -14,14 +14,14 @@
   height: $nav-toggle-height;
   border: 0;
   outline: none;
-  color: $primary-color;
+  color: #000;
   background-color: transparent;
   cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 
   &:hover {
-    color: mix(#000, $primary-color, 25%);
+    color: $primary-color;
   }
 }
 
@@ -59,21 +59,19 @@
 
   .search-input {
     display: block;
-    margin-bottom: 0;
-    padding: 0;
-    border: none;
     outline: none;
     box-shadow: none;
     background-color: transparent;
-    font-size: $type-size-3;
+    font-size: 12pt;
 
-    @include breakpoint($large) {
-      font-size: $type-size-2;
-    }
 
-    @include breakpoint($x-large) {
-      font-size: $type-size-1;
-    }
+    // @include breakpoint($large) {
+    //   font-size: $type-size-2;
+    // }
+
+    // @include breakpoint($x-large) {
+    //   font-size: $type-size-1;
+    // }
   }
 
   &.is--visible {

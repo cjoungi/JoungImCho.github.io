@@ -2,4 +2,9 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+<!--페이지 파일에 use_math라는 변수가 있는 경우만 수식표현 가능-->
+{% if page.use_math %} 
+    {% include mathjax-support.html %}
+{% endif %}
+
 <!-- end custom head snippets -->
