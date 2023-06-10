@@ -25,5 +25,7 @@ categories:
         url: /categories/db/
       - title: "Web"
         url: /categories/web/
-      - title: "Backend CS"
-        url: /categories/backend-cs/
+      - title: "CS"
+        url: /categories/cs/
+      - title: "Git/Github"
+        url: /categories/git/
