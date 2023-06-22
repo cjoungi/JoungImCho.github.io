@@ -1,12 +1,12 @@
 ---
-title: "[BaekJoon] 입출력과 사칙연산 - 2557번 : Hello World (java)"
+title: "[Git/Github] 팀 프로젝트 소스코드를 내 Repository로 옮기기"
 
 categories:
-  - BaekJoon
+  - Git/Github
 
-permalink: /baekjoon/입출력과 사칙연산 - 2557번 : Hello World (java)/
+permalink: /git/팀 프로젝트 소스코드를 내 Repository로 옮기기/
 
-date: 2023-06-22
+date: 2023-06-10
 #last_modified_at: 2021-10-0
 ---
  5주간의 팀 프로젝트가 끝났다.<br>
