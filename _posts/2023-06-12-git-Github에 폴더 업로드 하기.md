@@ -96,6 +96,6 @@ git push origin +main
 
 <br><br><br>
 이제 본인의 Github 페이지로 가서 확인해보면 폴더가 정상적으로 올라간 것을 확인할 수 있다.
-
+<br><br><br>
 
 

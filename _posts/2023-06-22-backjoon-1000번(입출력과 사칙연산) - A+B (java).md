@@ -12,11 +12,11 @@ date: 2023-06-22
 
 
 ## 1. 문제
-\> [문제 바로가기](https://www.acmicpc.net/problem/1000)<br><br>
+👉 [문제 바로가기](https://www.acmicpc.net/problem/1000)<br><br>
 ###  - 조건
   
 | 시간 제한 | 메모리 제한 |
-|:--------:|:--------:|
+|:---:|:---:|
 |2초|128MB|
   
 <br><br>
@@ -35,8 +35,8 @@ date: 2023-06-22
 
 ### 예제
   
-| &nbsp;&nbsp;입력&nbsp;&nbsp; |&nbsp;&nbsp; 출력&nbsp;&nbsp; |
-|:--------:|:--------:|
+|입력|출력|
+|:---:|:---:|
 |1 2|3|
   
 <br><br><br>
@@ -51,7 +51,7 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args){
-		//객체 생성
+        //객체 생성
         Scanner sc = new Scanner(System.in);
         
         //int형 변수 A와 B에 숫자 입력받기
@@ -65,5 +65,21 @@ public class Main{
 }
 ```
 > 위와같이 객체를 생성할 때, Scanner(System.in) 에서 `System.in` 은 입력한 값을 Byte 단위로 읽는 것을 뜻한다.
+<br>
+
+> nextInt()는 변수의 자료형에 맞게 입력한 것이다.<br>
+ - String 문자열(공백입력 전까지) = sc`.next()`;<br>
+ - String 문자열(엔터입력 전까지) = sc`.nextLine()`;<br><br>
+> 
+ - boolean 부울 = sc`.nextBoolean()`;<br><br>
+>	
+ - byte 바이트 = sc`.nextByte()`;<br>
+ - short 쇼트 = sc`.nextShort()`;<br>
+ - int 정수 = sc`.nextInt()`;<br>
+ - long 롱 = sc`.nextLong()`;<br><br>
+>	
+ - double 더블형 = sc`.nextDouble()`;<br>
+ - float 플롯 = sc`.nextFloat()`;
+
 <br><br><br>
 

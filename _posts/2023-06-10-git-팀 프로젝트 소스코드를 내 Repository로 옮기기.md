@@ -33,14 +33,15 @@ cmd창에 입력할 명령어 ⇨ `git clone --mirror https://github.com/aaa rep
 
 ## 2.  내 GitHub에 새 Repository 생성하기
 내 GitHub에 새 Repository를 생성할 때, Readme, gitignore등이 없는 Repository 생성을 권장한다.
-다른 파일이 존재하는 경우 push할 때 conflict이 생길수도 있기 때문에 이를 방지하기 위함인 것 같다.
+다른 파일이 존재하는 경우 push할 때 conflict이 생길수도 있기 때문에 이를 방지하기 위함인 것 같다.<br>
 
-새 Repository 생성하면 주소는  `https://github.com/<깃허브 ID>/<Repository 이름>`  형태로 구성이 된다.
+새 Repository 생성하면 주소는 <br> `https://github.com/<깃허브 ID>/<Repository 이름>.git`  형태로 구성이 된다.
 <br>
 다음으로 cmd 창에서 클론받은 폴더로 이동한 후,  아래의 명령어를 입력한다.
-
-`git remote set-url origin https://github.com/<깃허브 ID>/<Repository 이름>.git`<br>
-`git push`
+```
+git remote set-url origin https://github.com/<깃허브 ID>/<Repository 이름>.git
+git push
+```
 >위의 코드는 내가 Github에 생성한 주소를 git remote의 파라메터로 넣어주고, push를 해주는 명령어이다.
 
 >`git remote`는 현재 내 PC에 있는 저장소를 원격 저장소로 연결하겠다는 의미이다.<br>
@@ -52,7 +53,10 @@ cmd창에 입력할 명령어 ⇨ `git clone --mirror https://github.com/aaa rep
 
 <br><br>
 ## 3. 변경된 결과 확인하기
-git push 이후 내 깃허브에 들어가서 확인하거나,  cmd창에 `git remote -v`  명령어로 확인하다.
+git push 이후 내 깃허브에 들어가서 확인하거나,  cmd창에 아래 명령어로 확인한다.
+```
+git remote -v
+```
 
 <br><br>
 ---
@@ -60,4 +64,4 @@ git push 이후 내 깃허브에 들어가서 확인하거나,  cmd창에 `git r
 
 참고링크 |<br>
 [팀 개발 프로젝트가 끝난 이후에, 해당 소스코드를 내 GitHub로 옮겨와서 이어가는 방법](https://peterdrinker.tistory.com/337)
-
+<br><br><br>
