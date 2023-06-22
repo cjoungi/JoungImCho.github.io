@@ -19,10 +19,12 @@ categories:
 #    children:
       - title: "Java"
         url: /categories/java/
+
       - title: "Algorithm"
         children:
           - title: "BaekJoon"
             url: /categories/baekjoon/
+
       - title: "DB"
         url: /categories/db/
       - title: "Web"
