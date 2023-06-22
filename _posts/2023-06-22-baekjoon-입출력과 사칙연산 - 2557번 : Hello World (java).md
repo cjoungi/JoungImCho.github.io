@@ -4,7 +4,7 @@ title: "[BaekJoon] 입출력과 사칙연산 - 2557번 : Hello World (java)"
 categories:
   - BaekJoon
 
-permalink: /baekjoon/입출력과 사칙연산 - 2557번 : Hello World (java)/
+permalink: /baekjoon/2557번 - Hello World (java)/
 
 date: 2023-06-22
 #last_modified_at: 2021-10-0
