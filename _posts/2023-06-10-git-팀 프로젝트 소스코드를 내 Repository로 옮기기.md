@@ -1,17 +1,13 @@
 ---
-title: "[Git/Github] 팀 프로젝트 소스코드를 내 Repository로 옮기기"
+title: "[BaekJoon] 입출력과 사칙연산 - 2557번 : Hello World (java)"
 
 categories:
-  - Git/Github
-tags:
-  - [tag1, tag2]
+  - BaekJoon
 
-permalink: /git/팀 프로젝트 소스코드를 내 Repository로 옮기기/
+permalink: /baekjoon/입출력과 사칙연산 - 2557번 : Hello World (java)/
 
-date: 2023-06-10
-#last_modified_at: 2021-10-09
-
-
+date: 2023-06-22
+#last_modified_at: 2021-10-0
 ---
  5주간의 팀 프로젝트가 끝났다.<br>
 현재 다른 팀원의  깃허브 Repository에 있는 프로젝트와 관련된 모든 기록(소스코드, commit, branch, tag 등)을 개인 Repository로 옮겨보자!
