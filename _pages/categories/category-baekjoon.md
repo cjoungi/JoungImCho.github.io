@@ -1,9 +1,9 @@
 ---
-title: "Algorithm"
+title: "baekjoon"
 layout: category
-permalink: /categories/algorithm/
+permalink: /categories/baekjoon/
 author_profile: true
-taxonomy: Algorithm
+taxonomy: BaekJoon
 sidebar:
   nav: "categories"
 ---

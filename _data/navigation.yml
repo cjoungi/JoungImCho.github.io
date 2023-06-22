@@ -20,7 +20,9 @@ categories:
       - title: "Java"
         url: /categories/java/
       - title: "Algorithm"
-        url: /categories/algorithm/
+        children:
+          - title: "BaekJoon"
+            url: /categories/baekjoon/
       - title: "DB"
         url: /categories/db/
       - title: "Web"
