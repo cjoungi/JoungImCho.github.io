@@ -70,18 +70,11 @@ public class Main{
 ```
 > 위와같이 객체를 생성할 때, Scanner(System.in) 에서 `System.in` 은 입력한 값을 Byte 단위로 읽는 것을 뜻한다.
 
-> **[ sc.close(); 는 꼭 사용해야 할까? ]**<br>
-결론부터 말하면 `꼭 닫을 필요는 없다.` <br>
-이유는 System.in을 통해 외부로부터
-입력을 받을 때 스트림을 이용해 입력을 받는데,<br>
-거의 모든 `스트림 인스턴스 사용 후 실제 닫을 필요가 없다`는 공식 사이트 글이 있다.<br>  
-resource가 `IO 채널일 때(외부 네트워크, 파일 등)`만 스트림을 닫아주면 된다!!<br>
-이런 resource를 사용 중에 다른 곳에서 같은 resource에 접근하여 사용하다보면 코드가 꼬일 수 있다.<br>
-그래서 한 입출력에서 resource를 사용했다면, `.close();`를 사용하여 닫아줘야 한다.<br>
-아래는 공식 문서에서 가져온 관련 내용이다.<br>
+<br><br><br>
+<span class="color">관련 페이지</span><br>
+[Scanner 클래스 정리](/java/Scanner 클래스/)
 
-<div style="background-color:#ededed;padding:10px 20px;font-size:.8em">
-Streams have a BaseStream.close() method and implement AutoCloseable, but nearly all stream instances do not actually need to be closed after use. Generally, only streams whose source is an IO channel (such as those returned by Files.lines(Path, Charset)) will require closing. Most streams are backed by collections, arrays, or generating functions, which require no special resource management. (If a stream does require closing, it can be declared as a resource in a try-with-resources statement.)
-</div>
+[sc.close()를 꼭 사용해야 할까?](/java/Scanner의 close() 메서드는 꼭 사용해야 할까/)
+
 
 <br><br><br>
