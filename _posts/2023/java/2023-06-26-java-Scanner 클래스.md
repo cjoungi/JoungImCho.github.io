@@ -16,10 +16,11 @@ date: 2023-06-26
 ---
 
 ## 1. Scanner 클래스란?
-Scanner 클래스는 <span class="color">java.util 패키지</span>에 있는 <span class="color">입력 클래스</span>이다.<br>
-Scanner 클래스는 `문자`뿐 아니라 정수, 실수 등 `다른 자료형`도 읽을 수 있다.<br>
-또한 콘솔 화면뿐 아니라 `파일`이나 `문자열`을 `생성자의 매개변수`로 받아 자료를 읽어 올 수도 있다. <br>
-여러 대상에서 자료를 읽는 Scanner 클래스의 생성자는 굉장히 다양하다.<br><br>
+- Scanner 클래스는 <span class="color">java.util 패키지</span>에 있는 <span class="color">입력 클래스</span>이다.<br>
+- Scanner 클래스는 `문자`뿐 아니라 정수, 실수 등 `다른 자료형`도 읽을 수 있다.<br>
+- 또한 콘솔 화면뿐 아니라 `파일`이나 `문자열`을 `생성자의 매개변수`로 받아 자료를 읽어올 수 있다. <br>
+- 여러 대상에서 자료를 읽는 Scanner 클래스의 생성자는 굉장히 다양하다.
+<br><br><br><br>
 
 ### - 대표 생성자
 
@@ -29,7 +30,14 @@ Scanner 클래스는 `문자`뿐 아니라 정수, 실수 등 `다른 자료형`
 |Scanner(InputStream source) |	`바이트 스트림`을 매개변수로 받아 Scanner를 생성|
 |Scanner(String source)	| `String`을 매개변수로 받아 Scanner를 생성|
 
-<span class="color">Scanner scanner = new Scanner(System.in)</span>처럼 사용하면<br> `표준 입력`으로부터 자료를 읽어 들인다.<br><br><br>
+<span class="color">Scanner scanner = new Scanner(System.in)</span>처럼 사용하면 `표준 입력`으로부터 자료를 읽어 들인다.
+
+<br>
+<div class="box">
+<span class="color">*</span> <b>System.in</b><br>
+System.in은 입력한 값을 Byte 단위로 읽는 것을 뜻한다.
+</div>
+<br><br><br>
 
 다음은 Scanner 클래스의 다양한 메서드이다.<br>
 
@@ -44,18 +52,19 @@ Scanner 클래스는 `문자`뿐 아니라 정수, 실수 등 `다른 자료형`
 |nextLong()	| long 자료형을 읽는다|
 |nextFloat()	| float 자료형을 읽는다|
 |nextDouble()	| double 자료형을 읽는다|
-|next() | 문자열 String을 읽는다 <br> 단, 띄어쓰기 전까지만 읽는다|
-|nextLine()	| 문자열 String을 읽는다  <br> 띄어쓰기를 포함하여 한 줄(즉, Enter를 치기 전까지)을 읽는다|
+|next() | 문자열 String을 읽는다 <br> <b>단, 띄어쓰기 전까지만 읽는다</b>|
+|nextLine()	| 문자열 String을 읽는다  <br> <b>띄어쓰기를 포함하여 한 줄(즉, Enter를 치기 전까지)을 읽는다</b>|
  
 <br><br><br>
 
 ## 2. Scanner의 메서드 사용시 주의할 점
 
-### - Scanner 클래스는 <span class="color">*</span> `토큰 단위`로 데이터를 입력받는다.<br>
-(단, <span class="color">nextLine()</span>은 <span class="color">Enter 단위로만</span> 데이터를 입력받는다. )
+### - Scanner 클래스는 <span class="color">*</span> `토큰 단위`로 데이터를 입력받는다.
+   &nbsp;&nbsp;(단, <span class="color">nextLine()</span>은 <span class="color">Enter 단위로만</span> 데이터를 입력받는다.)
 
-<div style="background-color:#ededed;padding:10px 20px;font-size:.8em">
-<span class="color">*</span> 토큰 단위란?<br>
+<br>
+<div class="box">
+<span class="color">*</span> <b>토큰 단위</b>란?<br>
 공백문자('', '\t', '\n')로 구분되는 요소
 </div>
 <br><br>

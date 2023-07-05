@@ -69,11 +69,9 @@ public class Main{
 
 <br><br><br>
 <span class="color">관련 페이지</span><br>
-[Scanner 클래스 정리](/java/Scanner 클래스/)
+- [Scanner 클래스](/java/Scanner 클래스/)
 
-[sc.close()를 꼭 사용해야 할까?](/java/Scanner의 close() 메서드는 꼭 사용해야 할까/)
-
-
+- [sc.close()를 꼭 사용해야 할까?](/java/Scanner의 close() 메서드는 꼭 사용해야 할까/)
 
 <br><br><br>
 

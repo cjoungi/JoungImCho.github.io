@@ -16,12 +16,14 @@ date: 2023-06-26
 ---
 
 ## 1. Scanner 객체 사용 후, clone() 메서드를 사용해야 할까?
-결론부터 말하면 `close() 메서드를 사용하는 것이 좋다!!` <br><br>
-자바에서는 모든 입출력, 즉 `I/O` (Input/Output)가 <span class="color">* Stream(스트림)</span>을 통해 이루어진다.<br>
-그런데 '거의 모든 Stream은 굳이 close()를 호출하여 닫을 필요는 없다' 는 공식 문서가 아래에 있다.<br><br>
+결론부터 말하면 <span class="color">close() 메서드를 사용하는 것이 좋다!!</span> <br><br>
+Scanner는 입력값을 받을 때 사용하는 클래스이다.<br>
+자바에서는 모든 입출력, 즉 <code><b>I/O</b></code>가 <span class="color">*</span> <code><b>Stream(스트림)</b></code>을 통해 이루어지는데<br>
+사실 아래의 공식문서에 따르면, `'거의 모든 Stream은 굳이 close()를 호출하여 닫을 필요는 없다'` 는 내용이 있다.<br><br>
+
 또한, `Scanner(System.in)` 와 `System.out.println();` 같은 표준 입출력은 프로세스마다 따로 부여되기 때문에
 닫지 않아도 문제는 없다. <br>
-그래도 아래에 예외사항이 있기 때문에 헷갈리지 않게 `닫아주는 습관`을 갖는 것을 추천한다.
+하지만 혹시 모를 오류와 아래의 예외사항때문에 헷갈리지 않게 `닫아주는 습관`을 갖는 것을 추천한다.
 
 <div style="background-color:#ededed;padding:10px 20px;font-size:.8em">
 <span style="font-weight:bold;font-size:1em"><span class="color">* </span>Stream(스트림)이란?</span><br>
@@ -45,7 +47,7 @@ Streams have a BaseStream.close() method and implement AutoCloseable, <b>but nea
 ## 2. '왜' close()를 호출해야할까?
 리소스를 받아서 사용이 끝나도 해당 리소스는 `자동으로 닫히지 않기 때문이다.`<br>
 이런 리소스를 사용 중에 다른 곳에서 같은 리소스에 접근하여 사용하다보면 코드가 꼬일 수 있다.<br>
-그래서 명시적으로 close()를 사용해 `리소스 사용을 중지`하고 `되돌려 줘야 한다.`<br>
+그래서 사용이 완전히 끝나면 명시적으로 close()를 사용해 `리소스 사용을 중지`하고 `되돌려 줘야 한다.`<br>
 
 <br><br>
 
