@@ -34,7 +34,7 @@ Scanner는 입력값을 받을 때 사용하는 클래스이다.<br>
 
 <br><br>
 
-하지만 `Scanner 객체`를 생성할 때 `System.in` 대신에<br>
+하지만 `Scanner 객체`를 생성할 때 `System.in(키보드 입력)` 대신에<br>
 <span class="color">I/O 리소스(파일, 네트워크 등)</span>를 사용한다면 `close() 메서드를 명시적으로 호출해야한다!!`<br><br>
 공식 문서 [Stream API doc](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)에서 해당 내용에 대해 언급하고 있다.<br>
 <div style="background-color:#ededed;padding:10px 20px;font-size:.8em">
