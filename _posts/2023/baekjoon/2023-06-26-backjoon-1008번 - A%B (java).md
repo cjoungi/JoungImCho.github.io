@@ -1,5 +1,5 @@
 ---
-title: "[BaekJoon] 1008번(입출력과 사칙연산) - A/B (java)"
+title: "[BaekJoon] 1008번 - A/B (java)"
 #excerpt: "본문의 주요 내용을 여기에 입력하세요"
 
 categories:
@@ -7,7 +7,7 @@ categories:
 tags:
   - [tag1, tag2]
 
-permalink: /baekjoon/1008번(입출력과 사칙연산) - A/B (java)/
+permalink: /baekjoon/1008번 - A/B (java)/
 
 
 date: 2023-06-26
