@@ -25,6 +25,8 @@ subtitle: # site tagline that appears below site title in masthead
 name: "JoungIm" # 블로그 닉네임 설정
 description: "JoungIm's Development Log" # 블로그 설명
 url: "https://cjoungi.github.io/" # 블로그 URL
+host: 127.0.0.1
+port: 4000
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "cjoungi/cjoungi.github.io" # GitHub Repo 이름
 teaser: #

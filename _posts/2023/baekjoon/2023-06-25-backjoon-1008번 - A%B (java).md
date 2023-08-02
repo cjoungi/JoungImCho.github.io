@@ -10,7 +10,7 @@ tags:
 permalink: /baekjoon/1008번 - A/B (java)/
 
 
-date: 2023-06-26
+date: 2023-06-25
 #last_modified_at: 2022-07-24
 ---
 

@@ -6,7 +6,7 @@ categories:
 
 permalink: /baekjoon/2557번 - Hello World (java)/
 
-date: 2023-06-22
+date: 2023-06-23
 #last_modified_at: 2021-10-0
 ---
 알고리즘 문제를 몇개 풀어보긴 했지만 처음부터 차근차근 기록을 남기면서 공부하려고 한다.<br>
