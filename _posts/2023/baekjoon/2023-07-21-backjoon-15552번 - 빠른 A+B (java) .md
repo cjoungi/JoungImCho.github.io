@@ -154,7 +154,8 @@ public class Main{
 
 > <code><b>StringBuilder 클래스</b></code>는 문자열을 동적으로 조작하기 위한 클래스로, <code><b>append()</b></code> 를 사용해 문자열을 추가하여 새로운 문자열을 생성한다.
 
-> <code><b>sb.append(a+b).append("\n");</b></code>은 두 개의 문자열 연산이 독립적으로 처리되기 때문에 <code><b>sb.append(a+b+"\n");</b></code> 보다 더 효율적이고 빠르다.
+> <code><b>sb.append(a+b).append("\n");</b></code>은 불필요한 문자열 연산을 하지 않고 StringBuilder에 직접 추가하기 때문에 <code><b>sb.append(a+b+"\n");</b></code> 보다 더 효율적이고 빠르다.
+
 
 <br><br><br><br>
 
