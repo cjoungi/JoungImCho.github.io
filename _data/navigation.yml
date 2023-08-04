@@ -34,5 +34,7 @@ categories:
         url: /categories/web/
       - title: "CS"
         url: /categories/cs/
+      - title: "Spring"
+        url: /categories/spring/
       - title: "Git/Github"
         url: /categories/git/
