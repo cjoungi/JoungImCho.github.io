@@ -77,7 +77,7 @@ public class Main {
   - @Async 어노테이션은 기본적으로 CompletableFuture를 사용하여 비동기 작업의 결과를 다루기 때문에 Future 객체를 직접 다루지 않아도 된다.
 <br><br><br>
 
-> 일반적으로 간단한 비동기 처리라면 @Async 어노테이션을 사용하는 것이 편리하고, 커스텀 스레드 풀,  복잡한 비동기 처리가 필요한 경우에는 ExecutorService를 사용하는 것이 좋다.<br>
+> 일반적으로 <code><b>간단한 비동기 처리</b></code>라면 <code><b>@Async 어노테이션</b></code>을 사용하고, <code><b>커스텀 스레드 풀, 복잡한 비동기 처리</b></code>가 필요한 경우에는 <code><b>ExecutorService</b></code>를 사용하는 것이 좋다.<br>
 여기선 간단한 비동기 처리를 위해 @Async 어노테이션을 사용한다.
 
 <br><br><br>
