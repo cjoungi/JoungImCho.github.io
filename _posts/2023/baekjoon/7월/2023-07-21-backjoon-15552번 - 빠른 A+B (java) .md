@@ -51,7 +51,7 @@ date: 2023-07-21
 
 <br><br><br>
 
-
+---
 ## 2. 풀이
 <code><b>반복문 for</b></code>를 사용해 첫 줄에 입력받은 값만큼 A + B를 반복한다.
 
@@ -69,7 +69,7 @@ BufferedReader 입력방식과 2개의 출력방식을 사용해서 결과를 �
 <br><br><br><br>
 
 ### - 2. BufferedWriter 클래스 사용
-```
+```java
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
@@ -107,7 +107,7 @@ public class Main{
 
 <br><br>
 <b>[여기서 잠깐!]</b>
-<div class="box"><code><b>BufferedWriter 클래스</b></code>에 대해 더 알아보고 싶으면 <a href="/java/BufferedReader／BufferedWriter 클래스/"> 여기</a>를 클릭하면 된다.</div>
+<div class="box"><code><b>BufferedWriter 클래스</b></code>에 대해 더 알아보고 싶으면 <a href="/java/BufferedReader／BufferedWriter 클래스/" class="underline"> 여기</a>를 클릭하면 된다.</div>
 
 <br><br><br><br>
 
@@ -188,18 +188,20 @@ public class Main{
 ```
 > <code><b>readLine()</b></code>을 통해 한 줄로 받은 String 데이터를 <code><b>split(" ")</b></code> 메서드를 사용해 공백 단위로 나눈 뒤 배열에 저장한다. 
 
-<br><br><br><br>
+<br><br><br>
 
-### - 3. BufferedWriter VS StringBuilder 성능 비교
+---
+## 3. BufferedWriter VS StringBuilder 성능 비교
 ![image](https://github.com/cjoungi/cjoungi.github.io/assets/113075984/a00d613b-ce85-4f75-b793-245acea2aac0)
 
 출력의 경우 BufferedWriter 보다는 <span class="color"> StringBuilder</span> 가 빠른 것을 볼 수 있다.<br><br>
 아무래도 100만개 정도까지는 StringBuilder 가 근소하게 더 빠른 것 같다.<br>
 (그러나 데이터 양이 커지면 커질 수록 BufferedWriter 가 더 빠르다.)<br><br>
 BufferedWriter는 일반적으로 I/O 작업으로 인해 비교적 느릴 수 있다. 반면에 StringBuilder는 문자열 조작에 최적화된 클래스로, 문자열 연산은 일반적으로 메모리 상에서 수행되므로 상대적으로 빠를 수 있다.
-<br><br><br><br>
+<br><br><br>
 
-### - 4. StringTokenizer VS split() 성능 비교
+---
+## 4. StringTokenizer VS split() 성능 비교
 ![image](https://github.com/cjoungi/cjoungi.github.io/assets/113075984/71095cf4-5d8e-4520-8956-a3aaabc8cff2)
 
 문자열을 분리할 때, split() 메서드보다 <span class="color">StringTokenizer</span> 가 더 빠르다.
@@ -209,7 +211,7 @@ StringTokenizer 클래스는 구분자를 단일 문자로 처리하기 때문�
 
 split() 메서드는 정규식을 사용하여 문자열을 분리하기 때문에, 정교한 정규식이 필요하거나 강력한 패턴 매칭이 필요할 때는 사용하는 것이 적절하다. 
 
-<br><br><br>
+<br><br><br><br>
 <span class="color">관련 페이지</span><br>
 - [Scanner 클래스](/java/Scanner 클래스/)
 - [BufferedReader/BufferedWriter 클래스](/java/BufferedReader／BufferedWriter 클래스/)

@@ -45,10 +45,11 @@ date: 2023-06-26
   
 <br><br><br>
 
-
+---
 ## 2. 풀이
 가장 기초적인 입력 방법인 `Scanner 클래스`를 이용해서 두개의 수를 입력받아 곱한 값을 출력하고자 한다.
 <br>
+
 ```java
 //Scanner 클래스는 java.util 패키지에 있기 때문에, java.util.Scanner를 import 해준다.
 import java.util.Scanner;
@@ -72,7 +73,7 @@ public class Main{
 ```
 > 위와같이 객체를 생성할 때, Scanner(System.in) 에서 `System.in` 은 입력한 값을 Byte 단위로 읽는 것을 뜻한다.
 
-<br><br><br>
+<br><br><br><br>
 <span class="color">관련 페이지</span><br>
 - [Scanner 클래스](/java/Scanner 클래스/)
 

@@ -44,12 +44,9 @@ date: 2023-07-28
 |:--------:|:--------:|
 |5|5<br>4<br>3<br>2<br>1|
 
-
-
-
-
 <br><br><br>
 
+---
 ## 2. 풀이
 <br>
 ### - 알고리즘
@@ -96,7 +93,7 @@ public class Main{
 
 <br><br>
 <b>[여기서 잠깐!]</b>
-<div class="box"><b>Scanner</b>에 대해 더 자세히 알고싶다면 <a href="/java/Scanner 클래스/"> 여기</a> 를 클릭하세요</div>
+<div class="box"><b>Scanner</b>에 대해 더 자세히 알고싶다면 <a href="/java/Scanner 클래스/" class="underline"> 여기</a> 를 클릭하세요</div>
 
 <br><br><br>
 
@@ -173,7 +170,7 @@ public class Main{
 
 <br><br>
 <b>[여기서 잠깐!]</b>
-<div class="box"><code><b>BufferedWriter 클래스</b></code>에 대해 더 알아보고 싶으면 <a href="/java/BufferedReader／BufferedWriter 클래스/"> 여기</a>를 클릭하면 된다.</div>
+<div class="box"><code><b>BufferedWriter 클래스</b></code>에 대해 더 알아보고 싶으면 <a href="/java/BufferedReader／BufferedWriter 클래스/" class="underline"> 여기</a>를 클릭하면 된다.</div>
 
 <br><br><br><br>
 
@@ -198,9 +195,10 @@ public class Main{
 }
 ```
 
-<br><br><br><br>
+<br><br><br>
 
-### - 3. 성능 비교
+---
+## 3. 성능 비교
 ![image](https://github.com/cjoungi/cjoungi.github.io/assets/113075984/29849c7c-9591-4d23-a385-0189a10c45ed)
 
 위에서 부터 순서대로<br><br>
@@ -218,8 +216,7 @@ BufferedWriter 보다는 <span class="color"> StringBuilder</span> 가 빠른 �
 BufferedWriter는 일반적으로 I/O 작업으로 인해 비교적 느릴 수 있다. <br>
 반면에 StringBuilder는 문자열 조작에 최적화된 클래스로, 문자열 연산은 일반적으로 메모리 상에서 수행되므로 상대적으로 빠를 수 있다.
 
-
-<br><br><br>
+<br><br><br><br>
 <span class="color">관련 페이지</span><br>
 - [Scanner 클래스](/java/Scanner 클래스/)
 - [BufferedReader/BufferedWriter 클래스](/java/BufferedReader／BufferedWriter 클래스/)

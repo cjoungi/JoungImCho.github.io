@@ -14,10 +14,9 @@ date: 2023-06-23
 
 ## 1. 문제
 👉 [문제 바로가기](https://www.acmicpc.net/problem/2557)<br>
-![no.2557](https://github.com/cjoungi/hobby_store/assets/113075984/2921ba4a-8550-4fbf-bbb7-8636e09f3564)<br><br>
+![no.2557](https://github.com/cjoungi/hobby_store/assets/113075984/2921ba4a-8550-4fbf-bbb7-8636e09f3564)<br><br><br>
 
-
-
+---
 ## 2. 풀이
 ```java
 public class Main{
@@ -26,7 +25,6 @@ public class Main{
     }
 }
 ```
-
 > 주의!!<br>
 > 백준 알고리즘에서는 클래스명을 `Main`으로 해야한다. <br>대부분이 이걸 간과해서 정답률이 39%밖에 되지 않는 것 같다..
 
