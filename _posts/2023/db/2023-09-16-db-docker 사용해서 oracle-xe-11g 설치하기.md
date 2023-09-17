@@ -1,5 +1,5 @@
 ---
-title: "[DB] docker 사용해서 오라클-xe-11g 설치하기"
+title: "[DB] docker 사용해서 oracle-xe-11g 설치하기"
 #excerpt: "본문의 주요 내용을 여기에 입력하세요"
 
 categories:
@@ -7,7 +7,7 @@ categories:
 tags:
   - [oracle, docker, db, colima]
 
-permalink: /db/docker 사용해서 오라클-xe-11g 설치하기/
+permalink: /db/docker 사용해서 oracle-xe-11g 설치하기/
 
 
 date: 2023-09-16

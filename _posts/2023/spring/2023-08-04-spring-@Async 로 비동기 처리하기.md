@@ -158,9 +158,7 @@ public class AsyncConfig {
 
 ### 4-4. ThreadPoolExecutor 사용
 - 스레드 풀을 사용하고자 하는 위치에서 위에서 등록한 Bean을 주입 받아 사용
-```java
 
-```
 
 <br><br><br><br>
 

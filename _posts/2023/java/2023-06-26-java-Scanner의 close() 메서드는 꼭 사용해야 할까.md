@@ -25,7 +25,7 @@ Scanner는 입력값을 받을 때 사용하는 클래스이다.<br>
 닫지 않아도 문제는 없다. <br>
 하지만 혹시 모를 오류와 아래의 예외사항때문에 헷갈리지 않게 `닫아주는 습관`을 갖는 것을 추천한다.
 
-<div style="background-color:#ededed;padding:10px 20px;font-size:.8em">
+<div style="background-color:#ededed;padding:10px 20px;font-size:.8em"> 
 <span style="font-weight:bold;font-size:1em"><span class="color">* </span>Stream(스트림)이란?</span><br>
 여기서 스트림이란 <b>입출력 장치</b>와 <b>자바 프로그램</b>을 연결시켜주는 연결통로이다.<br>
 <b>단방향 통신</b>이고 큐의 <b>FIFO</b>(First In First Out) 구조로 되어있다.<br>
